@@ -1,4 +1,4 @@
-const API_URL = "https://api.pray.zone/v2/times/today.json?city=casablanca&key=MagicKey";
+const API_URL = 'today.json';//"https://api.pray.zone/v2/times/today.json?city=casablanca&key=MagicKey";
 HTML = '';
 async function TIME_PRAYER() {
     const response = await fetch(API_URL);
